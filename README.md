@@ -5,7 +5,7 @@ Assignments and materials for the Programming 2 course @ EK
 | --- | ---------------- | ------------------------- | ------------------------------------------------------------------------------------------------------- |
 | 5   | 26.1             | REST & JPA                | -Skabe simpel CRUD App<br>-Forstå JSON og HTTP Statuskoder                                              |
 |     | 28.1             | JPA OneToOne              | -Vi laver OneToOne relation<br>-Vi forstår problemet med cirkulære referencer                           |
-| 6   | 2.2              | JPA ManyToOne & REST      | -Vi laver en ManyToOne relation <br>-Vi gennemgår unidirectional vs bidirectional                       |
+| 6   | 2.2              | JPA OneToMany & REST      | -Vi laver en OneToMany relation <br>-Vi gennemgår unidirectional vs bidirectional                       |
 |     | 6.2              | JPA & DTOs                | -Vi gennemgår DTOs<br>-Vi kigger på exception handling                                                  |
 | 7   | 9.2              | Javascript 1              |                                                                                                         |
 |     | 13.2             | Javascript 2              |                                                                                                         |
