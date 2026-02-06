@@ -19,7 +19,7 @@ We are building a Spring Boot application that will act as the backend for our R
 
 ![Setup 1](https://github.com/ek-kiil/f25c-prog2/blob/main/assets/images/Setup-1.png)
 
-![Setup 2](assets/images/Setup-2.png)
+![Setup 2](https://github.com/ek-kiil/f25c-prog2/blob/main/assets/images/Setup-2.png)
 
 
 
@@ -327,7 +327,7 @@ Now we have a functional service, but no way to run it. We need something to cal
 - **Success:** You should see a JSON list of Danish regions.
 - **Double Check:** Check MySQL Workbench/DataGrip (refresh the schemas). The `region` table should now be full of data.
 
-![MySQL 1](assets/images/MySQL-1.png)
+![MySQL 1](https://github.com/ek-kiil/f25c-prog2/blob/main/assets/images/MySQL-1.png)
 
 
 
@@ -513,7 +513,7 @@ We now need to check if everything works and we can store some Kommuner - I real
 2. Check the `kommune` table: It should have ~98 rows.
 3. **The Key Check:** Look at the `region_kode` column in the `kommune` table. It should be filled with data (e.g., '1084'), proving the relationship is working.
 
-![MySQL 2](assets/images/MySQL-2.png)
+![MySQL 2][(https://github.com/ek-kiil/f25c-prog2/blob/main/assets/images/MySQL-2.png)
 
 **Step 3: The "Trap" (I know we already tried this, this is the last time i swear)**. We have successfully ingested the data. But lets say we wanted to display a list of Regions to a user on a frontend.
 
