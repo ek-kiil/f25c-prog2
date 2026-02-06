@@ -17,7 +17,7 @@ We are building a Spring Boot application that will act as the backend for our R
   - **H2 Database**
   - **MySQL Driver**
 
-![Setup 1](assets/images/Setup-1.png)
+![Setup 1](https://github.com/ek-kiil/f25c-prog2/blob/main/assets/images/Setup-1.png)
 
 ![Setup 2](assets/images/Setup-2.png)
 
