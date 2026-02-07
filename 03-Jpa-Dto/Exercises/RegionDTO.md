@@ -538,7 +538,7 @@ public List<Region> getAllRegions() {
 4. It goes back to the `Region`...
 5. **CRASH:** `StackOverflowError` (Infinite Recursion).
 
-**Note:** This is our last Recursion lesson I promise :). To fix our Infinite Recursion issue, we can use **@JsonBackReference** (tells Jackson to ignore the relationship field), that fixes the problem. But now we have a **Kommune JSON missing the Region field**, we also want to **decouple our Database Structure from our Public API** - so that if we change something(e.g. a column name) it does not break our frontend.
+**Note:** This is our last Recursion lesson I promise :). To fix our Infinite Recursion issue, we can use **@JsonBackReference** (tells Jackson to ignore the relationship field), that fixes the problem. But now we have a **Kommune JSON missing the Region field**, we also want to **decouple our Database Structure from our Public API** - so that if we change something(e.g. a column name) it does not break our frontend. The best way to permanently solve our problem and achieve decoupling is to use DTOs (Data transfer objects) that fixes recursion by breaking circular references and where we explicitly select only the specific fields we need for the response.
 
 
 
@@ -546,10 +546,6 @@ public List<Region> getAllRegions() {
 
 1. We never wrote any code to link a Kommune to a Region (e.g. `kommune.setRegion(...)`). How did the database know how to assign say 'Roskilde' to 'Region Sjælland'?
 2. We know that Regions and Municipalities are linked. So why did our two endpoints (`/regioner` and `/kommuner`) work fine just now without triggering an infinite loop?
-
-
-
-**Next Up:** We will solve this by again using **DTOs (Data Transfer Objects)** - safe, flat copies of our data designed specifically for the API.
 
 ------
 
