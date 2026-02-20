@@ -100,7 +100,8 @@ Here is the basic structure for setting up your event listener with a callback f
 document.querySelector("#guessBtn").addEventListener("click", function() {
     console.log("Button clicked!");
     // All of your reading and guessing logic from the next steps will go inside here!
-});```
+});
+```
 </details>
 
 <br>
