@@ -90,6 +90,20 @@ Add an event listener to the "Guess" button. When the user clicks it, just print
 
 <br>
 
+**Hint:** Keep in mind that all the logic related to checking the user's guess will need to exist *inside* a function within this event listener. This callback function ensures the code only executes when the click actually happens.
+
+<details> <summary><b>Extra hint (use if stuck)</b></summary>
+
+Here is the basic structure for setting up your event listener with a callback function:
+
+```javascript
+document.querySelector("#guessBtn").addEventListener("click", function() {
+    console.log("Button clicked!");
+    // All of your reading and guessing logic from the next steps will go inside here!
+});
+</details>
+
+<br>
 
 
 ### Step 2: Read the Input
