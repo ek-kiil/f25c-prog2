@@ -332,7 +332,9 @@ Inside your function, use `document.createElement` to generate a blank `<table>`
 
 <br>
 
+**Hint:** To create an HTML element in JavaScript, you pass the tag name as a string to the method. For a table, you will need to do: `const table = document.createElement("table");`.
 
+<br>
 
 ### Step 2: Generate the Headers
 
@@ -382,11 +384,11 @@ table.appendChild(headerRow);
 Now you need to populate the table. This requires a **nested loop**.
 
 1. **Outer loop:** Loop through the main `data` array (you can use a `for...of` loop). For every mountain, create a new `<tr>`.
-2. **Inner loop:** For the current mountain, extract its values and loop through them to create the `<td>` cells.
+2. **Inner loop:** For the current mountain, loop through the `keys` array you generated in Step 2 to create the `<td>` cells and extract the matching value.
 
 <br>
 
-**Hint:** `Object.values()` is very helpful for extracting the data you need for the inner loop. Pay close attention to where you create the row versus where you create the cells.
+**Hint:** We use the exact same `keys` array we used for the headers(see **Hint** in Step 2). This guarantees our data lines up with our columns. We can access the specific data for each cell dynamically using bracket notation: `mountain[key]`.
 
 <details> <summary><b>Extra hint (use if stuck)</b></summary>
 
@@ -395,11 +397,10 @@ Here is the skeleton for your nested loop. Notice what happens inside versus out
 ```
 for (let mountain of data) {
     let tr = document.createElement("tr");
-    let values = Object.values(mountain);
 
-    for (let value of values) {
+    for (let key of keys) {
         // 1. Create a <td>
-        // 2. Set its text content to 'value'
+        // 2. Set its text content to mountain[key]
         // 3. Append it to 'tr'
     }
 
@@ -414,9 +415,9 @@ for (let mountain of data) {
 Here is how you fill in the blanks for the inner loop:
 
 ```
-for (let value of values) {
+for (let key of keys) {
     let td = document.createElement("td");
-    td.textContent = value;
+    td.textContent = mountain[key];
     tr.appendChild(td);
 }
 
@@ -1156,6 +1157,8 @@ Add an event listener to the search input. Whenever the user types a keystroke, 
 <br>
 
 **Hint:** Think about how to trigger code every time the user types a keystroke. Also, remember that JavaScript is case-sensitive ("sky" is not the same as "Sky").
+
+**Structural Hint:** Since you will be adding **another filter** in the next step, it is a good idea to keep your event listener lightweight. Instead of putting all the filtering logic inside the listener itself, consider creating a separate function (e.g., `updateDashboard()`) that reads the inputs and handles the filtering. Your event listener can then simply call that function.
 
 <details> <summary><b>Extra hint (use if stuck)</b></summary>
 
