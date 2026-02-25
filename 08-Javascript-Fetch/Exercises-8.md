@@ -185,7 +185,7 @@ This function should take an array of drone objects as an argument. Inside the f
 3. Set up a loop to go through every drone in the array using `for (let drone of dataArray) { ... }`.
 4. Inside the loop, create a new HTML element for the drone card using `document.createElement("div")` and store it in a variable called `card`.
 5. Apply the correct styling by adding the CSS class `"card"` to your new element using `card.classList.add("card")`.
-6. Build the content of the card by setting `card.innerHTML` equal to a template literal (using \`). Inside the \``, write standard HTML (like `<h3>` and `<p>` tags) and inject the drone's properties (`${drone.model}`, `${drone.battery}`, and `${drone.status}`).
+6. Build the content of the card by setting `card.innerHTML` equal to a template literal (using \`). Inside the \``, write standard HTML (like `<h3>` and `<p>` tags) and inject the drone's properties \(`${drone.model}`, `${drone.battery}`, and `${drone.status}`).
 7. Finally, make the card appear on the screen by attaching it to the dashboard container using the `.appendChild()`method.
 
 <br>
