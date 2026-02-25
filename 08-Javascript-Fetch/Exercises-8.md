@@ -14,9 +14,7 @@
 
 This week we will simulate a backend by using a JSON mock service, so we need to use the Fetch API. 
 
-Also in real-world applications (and at exams:), you rarely just display a static list. Users need to search, sort, and filter the data dynamically. So we will be building a dynamic dashboard. When the user types in the search box or changes the dropdown, the list of drones shown on the screen should instantly update to match the filters.
-
-This week you are given the data and the required functionality, but how you write the logic and structure is up to you.
+In real-world applications, you rarely just display a static list. Users need to search, sort, and filter the data dynamically. So we will be building a dynamic dashboard. When the user types in the search box or changes the dropdown, the list of drones shown on the screen should instantly update to match the filters.
 
 
 
