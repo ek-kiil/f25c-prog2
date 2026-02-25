@@ -771,17 +771,17 @@ fetchAlerts();
 
 ------
 
-### Step 5: Form Handling & Building the Package
+### Step 5: Form Handling
 
 <br>
 
-Before we send data to the server, we need to capture what the user typed into the form and bundle it into a package.
+Before we send data to the server, we need to capture what the user typed into the form and make it into an object.
 
 At the bottom of your `script.js`, select the `#alertForm` and add an event listener for the `"submit"` event. Make sure the callback function is `async` and receives the `event` parameter. Inside this listener, follow these steps:
 
 1. **Stop the refresh:** Forms naturally want to refresh the page when submitted. Stop this immediately by calling `event.preventDefault()` as your very first line.
 2. **Gather the data:** Create three variables to store the text the user typed. You do this by selecting the input and asking for its `.value` (for example: `document.querySelector("#locationInput").value`). Do this for the location, type, and status inputs.
-3. **Build the package:** Create a new JavaScript object. Give it `location`, `type`, and `status` properties, and set them equal to the three variables you just created.
+3. **Create the object:** Create a new JavaScript object. Give it `location`, `type`, and `status` properties, and set them equal to the three variables you just created.
 4. **Test it:** For now, just `console.log()` your new object. Fill out the form in your browser and click "Create Alert" to make sure the data prints correctly in your console.
 
 <br>
