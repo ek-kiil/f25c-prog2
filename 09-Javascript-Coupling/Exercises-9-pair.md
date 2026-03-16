@@ -517,6 +517,8 @@ When the page opens, the dropdown and the current orders should already be shown
 
 Call the functions you need at the bottom of your script.
 
+<br>
+
 <details>
   <summary><b>Hint</b></summary>
 
