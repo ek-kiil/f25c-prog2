@@ -13,11 +13,11 @@ Assignments and materials for the Programming 2 course @ EK
 |     | 20.2             | Javascript 3              | 07 Javascript DOM 2                                                                                     |
 | 9   | 23.2             | Denne lektion flyttes     | Flyttes til senere på semestret.                                                                        |
 |     | 25.2             | Javascript 4              | 08 Javascript Fetch/Async                                                                               |
-| 10  | 2.3              | Full stack projekt        |                                                                                                         |
-|     | 6.3              | Full stack projekt        |                                                                                                         |
-| 11  | 11.3             | Full stack projekt        |                                                                                                         |
-|     | 13.3             | Javascript 5              |                                                                                                         |
-| 12  | 16.3             | Javascript 6              |                                                                                                         |
+| 10  | 2.3              | 2 ugers projekt           |                                                                                                         |
+|     | 6.3              | 2 ugers projekt           |                                                                                                         |
+| 11  | 11.3             | 2 ugers projekt           |                                                                                                         |
+|     | 13.3             | 2 ugers projekt           |                                                                                                         |
+| 12  | 16.3             | Javascript 5              |                                                                                                         |
 |     | 20.3             | Functional Programming    |                                                                                                         |
 | 13  | 23.3             | Functional Programming    |                                                                                                         |
 | 14  |                  | Påskeferie                |                                                                                                         |
