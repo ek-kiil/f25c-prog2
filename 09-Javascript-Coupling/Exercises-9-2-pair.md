@@ -448,10 +448,9 @@ Check:
 - can you fill in the form and submit it?
 - does the browser send a `POST` request?
 - does the backend return a successful response?
-- does `loadAllData()` run afterwards?
 - does the new order appear in the board?
 
-If something does not work, there is a lot of potential places to look :)
+If something does not work, there is a lot of places to look :)
 
 - CORS
 - the `GET` requests
@@ -488,6 +487,8 @@ To make that work, you also need:
 - a controller method that receives the order id and the new status
 
 Inside `updateStatus(...)`, find the order with the matching id, update its status, and return the updated order.
+
+<br>
 
 <details>
   <summary><b>Hint</b></summary>
@@ -621,6 +622,8 @@ After the request succeeds, call `loadAllData()` so the board updates again.
 
 You can keep the current status text, or replace it with the dropdown.
 
+<br>
+
 <details>
   <summary><b>Hint</b></summary>
 
@@ -720,7 +723,7 @@ statusSelect.addEventListener("change", async function () {
 
 Good job so far! 
 
-If you still have time left, come up with a new feature and build it together.
+**If you still have time left, come up with a new feature and build it together.**
 
 <br>
 
