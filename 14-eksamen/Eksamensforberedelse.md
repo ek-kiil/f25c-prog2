@@ -5,11 +5,11 @@
 
 Her er nogle generelle spørgsmål som kan bruges uafhængigt af jeres specifikke løsning, hvis et spørgsmål ikke giver mening så prøv at omformuler eller gå videre til næste.
 
-Et generelt råd er at øve sig i at kunne forklare de centrale elementer af appen: Når man klikker/taster noget i frontenden hvad sker der så i koden? Hvordan gemmes data i databasen? Hvis i f.eks. har implementeret RestClient hvor i koden er det så vi henter geodata, og hvordan vises de? Det er også vigtigt at kunne finde rundt i projektet.
+Generelt så øv at forklare de centrale elementer af appen: Når man klikker/taster noget i frontenden hvad sker der så i koden? Hvordan gemmes data i databasen? Hvis i f.eks. har implementeret RestClient hvor i koden er det så vi henter geodata, og hvordan vises de? Det er også vigtigt at kunne finde rundt i projektet.
 
 Hvis i efter de 24t. har fundet fejl i jeres app, så må i gerne vise det til eksamen - man må bare ikke pushe det til github.
 
-I kan også bruge AI til at lave flere opgaver (hold fokus på de centrale emner, AI kan nemt ryge af sporet:). I kan også få AI til at få jer til at forklare emnerne (det virker lidt forvirret men det fungerer ok - man kan også efter at have læst op på et emne be' AI om at agere censor eller have en 'Sokratisk samtale'). 
+I kan også bruge AI til at lave flere opgaver (hold dog fokus på de centrale emner, AI kan ryge af sporet:), og prøv at forklare emnerne for den(bed den om at være censor eller lav 'Sokratisk samtale'). 
 
 ---
 
