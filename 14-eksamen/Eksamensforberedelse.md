@@ -3,13 +3,11 @@
 
 ---
 
-Her er nogle generelle spørgsmål som kan bruges uafhængigt af jeres specifikke løsning, hvis et spørgsmål ikke giver mening så prøv at omformuler det til jeres app.
+Her er nogle spørgsmål som kan bruges uafhængigt af jeres specifikke løsning. I kan give dem til AI og lave flere opgaver (vær dog obs. ift. fokus på de centrale emner, AI kan ryge af sporet). Man kan også forklare emnerne for den (bed den om at være censor eller prøv en 'Sokratisk samtale'). 
 
-Generelt så øv at forklare de centrale elementer af appen: Når man klikker/taster noget i frontenden hvad sker der så i koden? Hvordan gemmes data i databasen? Hvis i f.eks. har implementeret RestClient hvor i koden er det så vi henter geodata, og hvordan vises de? Det er også vigtigt at kunne finde rundt i projektet.
+Generelt så vil jeg anbefale at øve sig på at forklare de centrale elementer af appen: Når man klikker/taster noget i frontenden hvad sker der så i koden? Hvordan gemmes data i databasen? Hvis i f.eks. har implementeret RestClient hvor i koden er det så vi henter geodata, og hvordan vises de? Det er også vigtigt at kunne finde rundt i projektet.
 
-Hvis i efter de 24t. har fundet fejl i jeres app, så må i gerne vise det til eksamen - man må bare ikke pushe det til github.
-
-I kan også bruge AI til at lave flere opgaver (hold fokus på de centrale emner, AI kan ryge af sporet), og prøv at forklare emnerne for den(bed den om at være censor eller lav 'Sokratisk samtale'). 
+Hvis i efter de 24t. har fundet fejl i jeres app, så må i gerne vise det til eksamen - man må bare ikke pushe det til github. I må også gerne f.eks. ift. Spring Security sige at noget kunne være bedre eller anderledes, og forklare om dette - det er forståelsen der er vigtigst.
 
 ---
 
