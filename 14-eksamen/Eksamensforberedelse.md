@@ -3,7 +3,7 @@
 
 ---
 
-Jeg har lavet lidt generelle spørgsmål som kan bruges uafhængigt af jeres specifikke løsning, hvis et spørgsmål ikke giver mening så prøv at omformuler eller gå videre til næste.
+Her er nogle generelle spørgsmål som kan bruges uafhængigt af jeres specifikke løsning, hvis et spørgsmål ikke giver mening så prøv at omformuler eller gå videre til næste.
 
 Et generelt råd er at øve sig i at kunne forklare de centrale elementer af appen: Når man klikker/taster noget i frontenden hvad sker der så i koden? Hvordan gemmes data i databasen? Hvis i f.eks. har implementeret RestClient hvor i koden er det så vi henter geodata, og hvordan vises de? Det er også vigtigt at kunne finde rundt i projektet.
 
@@ -17,30 +17,20 @@ JPA, DTOer og databasen
 1. Hvad for nogle relationer har du brugt i din app? Hvis du f.eks. har brugt ManyToOne hvordan gemmes det så i databasen?
 2. Hvorfor bruger du et repository? Hvad gør det?
 3. Forklar hvor og hvordan din Spring app er sat op til at bruge databasen?
-4. Hvis du har brugt DTOer, hvorfor har du gjort det og til hvad?
 
 ---
 
-Services og RestClient
-1. Kan du beskrive de forskellige regler og logik i en af dine serviceklasser?
-2. Kan du forklare ift. en metode i din service, hvad kommer der ud og ind?
-3. Hvad sker der hvis en sensor sender dårlige data (f.eks. negative eller manglende)?
-4. (**BONUS**)Hvis du har implementeret geocoding, hvordan virker det så? 
+Services
+1. Kan du beskrive de forskellige metoder i en af dine serviceklasser?
+2. Hvad sker der hvis en sensor sender dårlige data (f.eks. negative eller manglende)?
+3. (**BONUS**)Hvis du har implementeret geocoding, hvordan virker det? 
 
 ---
 
 Controllers og dataflow
-1. Hvad gør @RequestBody?
-2. Hvad gør de forskellige mappings? Hvornår bruger vi @PathVariable og @RequestParam?
-3. Hvorfor bruger vi @ResponseStatus i en controller? Og hvad sker der hvis vi ikke bruger det?
-4. Vælg en handling i jeres app: Forklar det fulde flow fra brugeren udfører handlingen og hvad der så sker igennem koden.
-
----
-
-Spring Security (**BONUS**)
-1. Hvis du har sat Spring Security op, hvilke valg har du truffet f.eks. omkring login, roller, og beskyttede endpoints?
-2. Hvordan gemmer frontenden loginoplysninger? Kan det gøres bedre (HUSK: Forståelsen er det vigtigste)?
-3. Hvordan gemmes brugere og password i appen?
+1. Hvad gør @RequestBody? Og hvad med de andre annotationer vi bruger i RestController?
+2. Hvorfor bruger vi @ResponseStatus i en controller? Og hvad sker der hvis vi ikke bruger det?
+3. Vælg en handling i jeres app: Forklar det fulde flow fra brugeren udfører handlingen og hvad der så sker igennem koden.
 
 ---
 
@@ -52,18 +42,18 @@ Frontend
 
 ---
 
-Kodeændringer i backenden
-1. Gå ind i en af dine services og ændr' en regel så den gør noget andet.
-2. Tilføj et simpelt endpoint der har en eller anden simpel funktion(kald en eksisterende service, eller f.eks. returnerer antal elementer i en eksisterende liste)?
-3. Kan vi ændre på noget i en Java Stream(altså så listen den returnerer ændres), eller hvis i ikke bruger streams kan i så omskrive et loop(der laver en liste) til en stream?
-4. (**BONUS**)Hvis i har tilføjet Spring Security, kan i så lave om i en regel, så f.eks. brugeren pludselig kan tilgå noget han/hun ikke kunne før?
+Spring Security (**BONUS**)
+1. Hvis du har sat Spring Security op, hvilke valg har du truffet f.eks. omkring login, roller, og beskyttede endpoints?
+2. Hvordan gemmer frontenden loginoplysninger? Kan det gøres bedre (**HUSK:** Forståelsen er det vigtigste)?
 
 ---
 
-Kodeændringer i frontenden
-1. Lav en ny knap på siden. Kan du få knappen til at kalde en eksisterende funktion(f.eks. en der rerender eller clearer noget)?
-2. Kan du ændre rækkefølgen på noget i din frontend?
-3. Ændre på noget i en tabel, f.eks. rearranger rækkefølgen af kolonner, eller tilføj en kolonne(den kunne f.eks. vise både bredde- og længdegrad).
-4. Find et sted hvor du viser noget i en liste og sorter eller filtrer det anderledes. 
+Eksempler på simple kodeændringer
+1. Gå ind i en af dine services og ændr' en regel så den gør noget andet.
+2. Kan vi ændre på noget i en Java Stream(altså så listen den returnerer ændres), eller hvis i ikke bruger streams kan i så omskrive et loop(der laver en liste) til en stream?
+3. Lav en ny knap på siden.
+4. Kan du ændre rækkefølgen på noget i din frontend?
+5. Ændre på noget i en tabel, f.eks. rearranger rækkefølgen af kolonner, eller tilføj en kolonne(den kunne f.eks. vise både bredde- og længdegrad).
+6. (**BONUS**)Hvis i har tilføjet Spring Security, kan i så lave om i en regel, så f.eks. brugeren pludselig kan tilgå noget han/hun ikke kunne før?
 
 
